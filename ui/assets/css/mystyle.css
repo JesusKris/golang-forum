@@ -1,0 +1,809 @@
+label {
+    display: block;
+    font: .9rem 'Fira Sans', sans-serif;
+    font-size: large;
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+}
+
+/*---------------------HEADERS % FOOTER---------------------*/
+
+
+/*HEADER LOGGED OUT */
+#header-mainlogo {
+    width: 9rem;
+}
+
+.navbar.header {
+    background-color: #1A1A1B;
+    border-bottom:1px solid #676869;
+    min-width: 542px;
+}
+
+.navbar-brand.header {
+    width: 200px;
+}
+
+.headerbuttons {
+    width: 120px;
+}
+
+.btn.header {
+      padding:3px 30px;
+      font-size:23px;
+}
+
+.btn.header.btn-outline-secondary.first {
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.btn.header.btn-outline-secondary.first:hover {
+    background-color: #45ffdb;
+    color: #1A1A1B;
+    border:1px solid #45ffdb;
+}
+
+.btn.header.btn-outline-secondary.second {
+    color: #1A1A1B;
+    border-color: whitesmoke;
+    background: whitesmoke;
+}
+
+.btn.header.btn-outline-secondary.second:hover {
+    background-color: #45ffdb;
+    border:1px solid #45ffdb;
+}
+
+
+.btn-header0-div {
+    padding-right: 12px;
+}
+
+.btn-header1-div {
+    padding-right: 8px;
+    padding-left: 12px;
+}
+
+
+/*HEADER LOGGED IN */
+
+.dropdown-menu.header {
+    background-color: #1A1A1B;
+}
+
+.dropdown.header {
+    background-color: #1A1A1B;
+    color: whitesmoke;
+}
+
+.dropdown-menu.headerf {
+    background-color: #1A1A1B;
+    color: whitesmoke;
+    min-width: 300px !important;
+}
+
+.dropdown.headerf {
+    padding-right: 60px;
+}
+.dropdown.header {
+    padding-right: 10px;
+}
+
+.btn.inheader {
+    background-color: #1A1A1B;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.dropdown-item.header {
+    color: whitesmoke;
+    font-weight: 600;
+
+}
+
+.dropdown-item.comment {
+    white-space: normal;
+    min-width: 300px !important;
+
+}
+
+/*HEADER LOGGED IN (admin) */
+
+
+/*FOOTER */
+.footercontent {
+    padding-top: 40px;
+    width: 100%;
+}
+
+.footer {
+    background-color: #1A1A1B;
+    border-top:1px solid #676869;
+    margin-top: auto !important;
+    color: whitesmoke;
+    line-height: 50px;
+    padding: 0 20px;
+    width: 100%;
+
+  }
+
+  .inside-footer {
+	display: flex;
+  }
+
+  .inside-footer-item {
+	flex-basis: 100%;
+	text-align: center;
+  }
+  .inside-footer-item a {
+	  color: whitesmoke;
+ 	}
+
+/*---------------------PAGES---------------------*/
+
+
+/*BASE.LAYOUT */
+html {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+.base-layout-body {
+    padding-top: 70px;
+    height: 100%;
+    background-color: #030303;
+    margin: 0;
+    width: 100%;
+}
+
+.content {
+    min-height: 100%;
+  }
+  .content-inside {
+    width: 100%;
+    height: 100%;
+  }
+
+.result_comment {
+    background: white;
+}
+/*LOG IN PAGE*/
+
+.loginboxcontent {
+    padding: 140px;
+}
+
+.loginbox {
+    max-width: 310px;
+    min-width: 310px;
+    margin: auto;
+    padding: 3em 2em;
+    background-color: #1A1A1B;
+    padding-top: 50px;
+}
+
+.iconbox {
+    text-align: center;
+}
+
+.iconboxspan {
+    font-size: 50px;
+}
+
+.loginform {
+    padding-top: 30px;
+}
+
+.registerlink {
+    padding-top:20px;
+}
+
+.registerlink a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.registerlink a:hover {
+    color: #45ffdb;
+}
+
+.btn.loginbtn {
+color: whitesmoke;
+border:1px solid whitesmoke;
+background-color: #1A1A1B;
+min-width: 245px;
+}
+
+.btn.loginbtn:hover {
+background-color: #45ffdb;
+color: #1A1A1B;
+border:1px solid #45ffdb;
+}
+
+.error {
+    color: rgb(165, 7, 7);
+    font-size: 15px;
+}
+
+.orclass {
+    font-size: 16px;
+    font-weight: 400;
+    color: whitesmoke;
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+    line-height: .08em;
+    margin: 16px 0 24px 0;
+    padding-top: 20px;
+}
+
+.orclass span {
+    padding: 0 10px;
+    background-color: #1A1A1B;
+}
+
+.loginicons {
+    color: whitesmoke;
+}
+
+.loginicons i {
+    width: 1em;
+    height: 1em;
+    padding: 0px 10px 0px 10px;
+    font-size: 30px;
+}
+
+.loginicons a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.loginicons a:hover {
+    color: #45ffdb;
+}
+
+
+/*SIGN UP PAGE*/
+
+
+/* ERROR PAGE */
+
+.errorcontentoutside {
+    padding-top: 19px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.errorcontent {
+    background-image: url("/static/css/images/vscbackground.png");
+    /* background: #1A1A1B; */
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+    border:1px solid #676869;
+}
+
+.shade {
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.fourofour h1 {
+    font-size: 140px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.errortext h2 {
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.returntext h3 {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 70px;
+}
+
+.lowerh3a {
+    color: #45ffdb;
+    text-decoration: none;
+}
+
+
+/* MAINPAGE */
+
+.mainpagecontent {
+    padding-top: 40px;
+}
+
+.mainpagebox {
+    min-width: 750px;
+    min-height: auto;
+    margin: auto;
+    background-color: #1A1A1B;
+    border:1px solid #676869;
+    border-radius: 10px;
+}
+
+.mainpageboxinside {
+    padding: 45px 45px 20px 45px;
+}
+
+.categorycontent {
+    background: #1A1A1B;
+    height: 1px;
+}
+
+.mainpageboxheader h1 {
+    font-size: 45px;
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+.kodify {
+    color: #45ffdb!important;
+    text-decoration: none;
+}
+
+.kodify:hover {
+    color: #45ffdb;
+}
+
+.adderbuttons {
+    padding-bottom: 10px;
+}
+
+.adderbuttons a {
+    color: whitesmoke;
+    border:1px solid whitesmoke;
+    background-color: #1A1A1B;
+    min-width: 110px;
+    text-decoration: none;
+}
+
+.adderbuttons a:hover {
+    background-color: #45ffdb;
+    color: #1A1A1B;
+    border:1px solid #45ffdb;
+}
+
+.categories {
+    border:1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.insidecategories {
+    padding: 20px;
+}
+
+.insidecatepadding {
+    padding: 3px;
+}
+
+.catecard {
+    padding: 2px;
+    min-width: 200px;
+    max-height: 500px;
+    height: 100%;
+    border:1px solid #676869;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #1A1A1B;
+    transition: transform .2s;
+}
+
+.catecard:hover {
+    transform: scale(1.02);
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.catecardtitle {
+    color: #45ffdb;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.card-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+    color: whitesmoke;
+}
+
+.category-card {
+	min-width: 200px;
+	max-height: 500px;
+}
+
+.admintools {
+    display: flex;
+    flex-grow: 1;
+}
+
+.adminbuttons {
+    z-index: 2;
+    flex-grow: 8;
+}
+
+
+/* INSIDE CATEGORY PAGE */
+
+.insidecateboxheader {
+    padding-bottom: 30px;
+}
+
+.insidecateboxheader h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.headercard {
+    padding: 2px;
+    min-width: 200px;
+    max-height: 500px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #1A1A1B;
+}
+
+.headercard h2 {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.filtercard {
+    padding: 2px;
+    min-width: 200px;
+    max-height: 500px;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #1A1A1B;
+}
+
+.filter-body {
+    text-align: center;
+}
+
+.post-card {
+    display: flex;
+    position:relative;
+}
+
+.votingbuttons {
+    padding-right: 20px;
+}
+
+.postdetails {
+    flex-grow: 8;
+    position: relative;
+    min-width: 200px;
+    max-height: 500px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.post-username {
+    font-size: 10px;
+    color: #676869;
+}
+
+.post-title {
+    color: #45ffdb;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    color: #45ffdb;
+}
+
+.post-description {
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.up-button {
+    background: #1A1A1B;
+    z-index: 2;
+    position: relative;
+
+}
+
+.up-button.active {
+    border:1px solid #45ffdb;
+}
+
+.upb {
+    color: #45ffdb;
+}
+
+.down-button {
+    background: #1A1A1B;
+    z-index: 2;
+    position: relative;
+}
+
+.down-button.active {
+    border:1px solid rgb(165, 7, 7);;
+}
+
+.downb {
+    color: rgb(165, 7, 7);;
+}
+
+.votecounter {
+    text-align: center;
+}
+
+.votes {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+/* INSIDE THREAD PAGE */
+
+
+.mainbpageboxheaderthread {
+    padding-bottom: 40px;
+}
+
+.post-description-comment {
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.post-username-thread {
+    font-size: 13px;
+    color: #676869;
+}
+
+.post-title-thread {
+    color: #45ffdb;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.post-title-thread:hover {
+    color: #45ffdb;
+}
+
+.post-description-thread {
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.commentingbox {
+    padding: 20px 20px 0 20px;
+}
+
+.commentbox {
+    outline: none;
+    resize: none;
+    overflow: auto;
+    background-color: #1A1A1B;
+    color: whitesmoke;
+    border:1px solid #676869;
+    border-radius: 10px;
+    max-width: 100%;
+    min-width: 100%;
+
+}
+
+.comment-card {
+	max-width: 700px;
+	width: 85%;
+	max-height: 500px;
+}
+
+.postimg {
+	max-width: 420px;
+	max-height: 420px;
+}
+
+.postimgdiv {
+    padding: 20px 0px 0px 60px;
+}
+
+.comment ::placeholder {
+    color: #676869;
+}
+
+.com {
+    text-align: end;
+}
+
+
+
+  /* PROFILE PAGE */
+
+  .profilebox {
+    max-width: 750px;
+    min-width: 750px;
+    min-height: 355px;
+    margin: auto;
+    background-color: #1A1A1B;
+    border:1px solid #676869;
+    border-radius: 10px;
+
+  }
+
+  .accountdetails {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .accounth2 {
+      color: whitesmoke;
+      padding-bottom: 15px;
+      padding-top: 10px;
+  }
+
+  .accountdetails h3 {
+      font-size: 25px;
+      color: whitesmoke;
+  }
+
+  .profilename {
+      flex-grow: 1;
+      color: #45ffdb;
+  }
+
+  .profileemail {
+      flex-grow: 1;
+      color: #45ffdb;
+  }
+
+  .profileaccount {
+      flex-grow: 1;
+      color: #45ffdb;
+  }
+
+  .applymod {
+      padding-top: 30px;
+  }
+
+/* CREATE POST PAGE */
+
+.createpostcontent {
+    padding-top: 110px;
+}
+
+.createpostbox {
+    max-width: 750px;
+    min-width: 750px;
+    min-height: 500px;
+    margin: auto;
+    background-color: #1A1A1B;
+    border:1px solid #676869;
+    border-radius: 10px;
+}
+
+.createpostboxinside {
+    padding: 45px 45px 20px 45px;
+}
+
+.createpostboxinside.form-label label {
+    color: whitesmoke;
+}
+
+.labels {
+    color: whitesmoke;
+}
+
+.createpostheader h1 {
+    font-size: 45px;
+    color: #45ffdb;
+    padding-bottom: 10px;
+}
+
+.submitpostbuttons {
+    padding-top: 40px;
+}
+
+.cancelbtn {
+    color: #1A1A1B;
+    border:1px solid whitesmoke;
+    background-color: whitesmoke;
+    min-width: 110px;
+}
+
+.cancelbtn:hover {
+    color:whitesmoke;
+    border:1px solid rgb(165, 7, 7);
+    background-color: rgb(165, 7, 7);
+}
+
+.submitbtn {
+    color: whitesmoke;
+    border:1px solid whitesmoke;
+    background-color: #1A1A1B;
+    min-width: 110px;
+    }
+
+.submitbtn:hover {
+    background-color: #45ffdb;
+    color: #1A1A1B;
+    border:1px solid #45ffdb;
+}
+
+.badger {
+    color: whitesmoke;
+    border:1px solid whitesmoke;
+    background-color: #1A1A1B;
+}
+
+a.dropdown-item {
+    color: whitesmoke;
+    background-color: #1A1A1B;
+    font-size: 18px;
+}
+
+a.dropdown-item:hover {
+    background-color: #45ffdb;
+    color: #1A1A1B;
+}
+
+span.badge.me-2.bg-primary {
+    background-color: #1A1A1B;
+}
+
+
+/* CREATE CATEGORY PAGE */
+
+.createcatebox {
+    max-width: 750px;
+    min-width: 750px;
+    min-height: 410px;
+    margin: auto;
+    background-color: #1A1A1B;
+    border:1px solid #676869;
+    border-radius: 10px;
+}
+
+.submitcatebuttons {
+    padding-top: 20px;
+}
+
+/* ADMIN PAGE */
+
+.moderatorcomment {
+    display: flex;
+    position: relative;
+}
